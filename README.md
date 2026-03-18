@@ -25,29 +25,53 @@ See `workflows/getting-started.md` for the full walkthrough.
 
 ### Prompts (`prompts/`)
 
-Autoresearch prompts designed for Claude Code's `/autoresearch` command. Each prompt defines a Goal, Metric, Direction, Verify condition, Guard rails, Iterations, and Protocol. They run autonomously, making web searches, updating your vault, and verifying their own work.
+12 autoresearch prompts designed for Claude Code's `/autoresearch` command. Each defines a Goal, Metric, Direction, Verify condition, Guard rails, Iterations, and Protocol. They run autonomously: searching the web, updating your vault, and verifying their own work.
 
 | Prompt | Purpose |
 |---|---|
-| 01-tree-expansion | Push every branch of your family tree as far back as possible using web research |
-| 02-cross-reference-audit | Find and fix every discrepancy between your family tree and source documents |
+| 01-tree-expansion | Push every branch as far back as possible using web research |
+| 02-cross-reference-audit | Find and fix discrepancies between your tree and source documents |
 | 03-findagrave-sweep | Locate Find a Grave memorials for every deceased ancestor |
 | 04-gedcom-completeness | Ensure your GEDCOM file matches your vault data |
+| 05-source-citation-audit | Verify every person file cites at least two independent sources |
+| 06-unresolved-persons | Identify and resolve unnamed people mentioned in your documents |
+| 07-timeline-gap-analysis | Find life events where records should exist but have not been found |
+| 08-open-question-resolution | Systematically attack every open research question |
+| 09-bygdebok-extraction | Extract data from digitized local history books (any country) |
+| 10-colonial-records-search | Search for colonial American ancestors in pre-1800 records |
+| 11-immigration-search | Locate passenger manifests and naturalization records |
+| 12-dna-chromosome-analysis | Analyze per-chromosome ancestry data to map genetic segments |
 
 ### Vault Template (`vault-template/`)
 
-A starter kit for organizing your genealogy research in Obsidian. Plain markdown with YAML frontmatter, readable anywhere. Includes:
+19 files: a complete Obsidian vault starter kit with YAML frontmatter, plain markdown, readable anywhere.
 
-- **Core files**: Family tree, research log, open questions tracker, data inventory, timeline
-- **Templates**: Person files, document transcriptions, regional research notes
+- **Core files**: Family tree, research log, open questions, data inventory, timeline, genetic profile, chromosome painting, witness network, unresolved persons, research strategy
+- **Templates**: Person, transcription, certificate, postcard, region, surname, hypothesis, draft letter
+
+### Archive Guides (`archives/`)
+
+24 country and region-specific guides covering where to find records, what is free vs paid, and what AI tools can access directly vs what requires a browser.
+
+**Europe**: Ireland, England/Wales, Scotland, France, Italy, Spain/Portugal, Germany, Netherlands, Austria, Hungary, Norway, Sweden, Poland, Russia/Ukraine
+
+**Americas**: USA (colonial, immigration, census, vital records), African American, Canada, Mexico/Latin America
+
+**Oceania**: Australia/New Zealand
+
+**Cross-national**: Jewish genealogy
 
 ### Reference Guides (`reference/`)
 
-Methodology documents covering confidence tiers, source hierarchies, DNA interpretation guardrails, and the case for using autonomous AI loops in genealogy research.
+9 methodology documents: confidence tiers, source hierarchy, DNA interpretation guardrails, naming conventions (patronymics, farm names, przydomki), GEDCOM format guide, common pitfalls, glossary, AI capabilities assessment, and the case for autoresearch in genealogy.
 
 ### Workflows (`workflows/`)
 
-Step-by-step guides for common research tasks: getting started with your first research session, running an OCR pipeline for scanned documents.
+7 step-by-step guides: getting started, OCR pipeline, new ancestor intake, document triage, oral history protocol, discrepancy resolution, phase planning.
+
+### Examples (`examples/`)
+
+6 anonymized worked examples showing autoresearch in action: tree expansion session, cross-reference audit, DNA-to-genealogy mapping, name resolution, colonial deep dive.
 
 ## Philosophy
 
