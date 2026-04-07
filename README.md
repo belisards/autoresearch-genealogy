@@ -2,6 +2,8 @@
 
 Structured prompts, vault templates, and research workflows for AI-assisted genealogy research. Built for Claude Code, adaptable to any AI tool or manual workflow.
 
+> This is a fork of [mattprusak/autoresearch-genealogy](https://github.com/mattprusak/autoresearch-genealogy) with the following additions: a Brazil archive guide, a reusable Playwright MCP browser scraping workflow (covering FamilySearch, MyHeritage, and Hemeroteca Digital Brasileira including its reverse-engineered DocReader API), and a GEDCOM-to-Mermaid diagram converter script.
+
 This project extracts and generalizes methods developed during a real genealogy research effort that produced 105 files spanning 9 generations across 6 family lines, using Claude Code's autonomous research capabilities.
 
 ## Who This Is For

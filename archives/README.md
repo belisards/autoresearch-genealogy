@@ -41,6 +41,7 @@ Country and region-specific guides for accessing genealogical records. Each guid
 | [african-american.md](african-american.md) | USA (African American) | Freedmen's Bureau, Freedman's Bank, Enslaved.org |
 | [canada.md](canada.md) | Canada | LAC, provincial archives, PRDH (Quebec) |
 | [mexico-latin-america.md](mexico-latin-america.md) | Mexico, Latin America | FamilySearch, Archivo General de la Nación |
+| [brazil.md](brazil.md) | Brazil | FamilySearch, Arquivo Nacional, Memorial do Imigrante, Hemeroteca Digital |
 
 ### Oceania
 
